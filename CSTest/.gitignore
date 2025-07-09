@@ -1,0 +1,11 @@
+# Ignore everything
+*
+
+# Except these:
+!.gitignore
+!**/*.cs       # C# source files
+!**/*.csproj   # Project files
+!**/*.sln      # Solution file
+!**/*.h        # Header files, if any
+!**/*.config   
+!**/README.md  
