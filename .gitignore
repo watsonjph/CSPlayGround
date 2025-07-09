@@ -1,14 +1,14 @@
 # Ignore everything
 *
 
-# Un-ignore folders
+# Un-ignore folders so Git can check inside them
 !*/
 
-# Then allow these specific files
+# Allow only relevant files
+!**/*.cs
+!**/*.csproj
+!**/*.sln
+!**/*.h
+!**/*.config
 !.gitignore
-!**/*.cs       # C# source files
-!**/*.csproj   # Project files
-!**/*.sln      # Solution file
-!**/*.h        # Header files, if any
-!**/*.config   # Config files
-!**/README.md  # Documentation
+!**/README.md
