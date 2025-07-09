@@ -1,11 +1,14 @@
 # Ignore everything
 *
 
-# Except these:
+# Un-ignore folders
+!*/
+
+# Then allow these specific files
 !.gitignore
 !**/*.cs       # C# source files
 !**/*.csproj   # Project files
 !**/*.sln      # Solution file
 !**/*.h        # Header files, if any
-!**/*.config   
-!**/README.md  
+!**/*.config   # Config files
+!**/README.md  # Documentation
